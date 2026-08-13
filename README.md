@@ -43,11 +43,6 @@ Most of what I build these days sits somewhere between full-stack web dev, IoT, 
 ### GitHub stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=H0GR1D3R-CODE&show_icons=true&hide_border=true&count_private=true&bg_color=0D1B2A&title_color=8ECAE6&icon_color=8ECAE6&text_color=E8F1F5" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=H0GR1D3R-CODE&layout=compact&hide_border=true&bg_color=0D1B2A&title_color=8ECAE6&text_color=E8F1F5" />
-</div>
-
-<div align="center">
 <img src="https://streak-stats.demolab.com/?user=H0GR1D3R-CODE&hide_border=true&background=0D1B2A&ring=8ECAE6&fire=8ECAE6&currStreakLabel=8ECAE6&sideLabels=E8F1F5&currStreakNum=E8F1F5&sideNums=E8F1F5&dates=6C8FA8" />
 </div>
 
