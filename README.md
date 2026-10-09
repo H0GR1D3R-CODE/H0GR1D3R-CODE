@@ -1,59 +1,152 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,50:274156,100:8ECAE6&height=220&section=header&text=Hi%20there,%20I'm%20Nebin&fontSize=38&fontColor=E8F1F5&animation=fadeIn&fontAlignY=38" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&color=8ECAE6&center=true&vCenter=true&width=600&lines=BCA+student+%40+Christ+University%2C+Bangalore;Building+full-stack%2C+IoT+%26+real-time+projects" alt="Typing SVG" />
+<a href="https://h0gr1d3r-code.github.io/">
+  <img src="assets/hero.svg" width="100%" alt="Nebin Stanly — BCA '28 at Christ University, Bengaluru. Full-stack, IoT and real-time projects, taken past the tutorial stage." />
 </a>
 
-</div>
+<p><br/><a href="https://h0gr1d3r-code.github.io/"><img src="assets/btn-portfolio.svg" height="36" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/nebin-stanly-379404231/"><img src="assets/btn-linkedin.svg" height="36" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:nebinstanly12@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email" /></a></p>
 
-### About me
-
-I'm a third-year BCA student at Christ University's Yeshwanthpur campus in Bangalore. I like taking things past the tutorial stage — every project pinned below is something I actually built, ran end-to-end, and debugged until it worked, not just a "hello world."
-
-Most of what I build these days sits somewhere between full-stack web dev, IoT, and real-time systems (WebSockets, live sync, that sort of thing). I'm also slowly getting deeper into cybersecurity on the side.
-
-📫 You can reach me at **nebinstanly12@gmail.com**
-
-<br/>
-
-### Tech stack
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=java,python,kotlin,js,react,nodejs,express,mongodb,mysql,sqlite,cpp,arduino,git,github,html,css,vscode,androidstudio&theme=dark" />
 </div>
 
 <br/>
 
-### Projects worth a look
+I'm a third-year BCA student at Christ University's Yeshwanthpur campus in Bangalore. I like taking things past the tutorial stage — every project below is something I actually built, ran end-to-end, and debugged until it worked, not just a "hello world."
+
+Most of what I build sits somewhere between full-stack web dev, IoT, and real-time systems (WebSockets, live sync, that sort of thing), with more machine learning and NLP creeping in lately. I'm also slowly getting deeper into cybersecurity on the side.
+
+The longer version, with experience and certifications, is on my portfolio: **[h0gr1d3r-code.github.io](https://h0gr1d3r-code.github.io/)**
+
+<br/>
+
+## Capstone project
+
+<a href="https://ecotrk.web.app">
+  <img src="assets/shots/ecotrack.webp" width="100%" alt="A tour of EcoTrack: the landing page (Know your carbon. Then change it.), the 30-second footprint estimator, the sourced explainers, and the photo essay" />
+</a>
+
+### EcoTrack — know your carbon, then change it
+
+A cloud-based carbon footprint tracker, built as my BCA specialization project and aligned with UN SDG 13 (Climate Action). You log everyday activity across seven categories — transport, electricity, fuel, diet, waste, water and consumption — and every entry is converted to kg of CO₂ with a published emission factor you can check.
+
+- **Forecasts** your month-end footprint with an 80% prediction interval, backtested against a naive baseline
+- **Recommends swaps** ranked by how much they save, each one citing the DEFRA / IPCC / CEA factors it was computed from
+- **Scans bills** — photograph an electricity bill and a vision model reads the units for you to confirm
+- **Compares you** against others in your region, k-anonymised so nobody is identifiable
+
+`React` `Vite` `Flask` `Firebase Firestore` `Firebase Auth` `Chart.js` `GSAP`
+
+**[Open EcoTrack](https://ecotrk.web.app)** &nbsp;·&nbsp; [Try the 30-second estimator](https://ecotrk.web.app/estimate) &nbsp;·&nbsp; [Code](https://github.com/H0GR1D3R-CODE/EcoTracker)
+
+<br/>
+
+## Latest
+
+<a href="https://h0gr1d3r-code.github.io/corridor-routing-atlas/">
+  <img src="assets/shots/corridor.webp" width="100%" alt="Corridor's live board: ambulances being routed to hospitals across a map of Bengaluru, above counters for 832 junctions, 1,630 road segments, 15 hospitals and 5 algorithms raced" />
+</a>
+
+### Corridor — an emergency-routing atlas for Bengaluru
+
+Finds the fastest route for an ambulance when every road's travel time depends on the day, the hour, the weather and what is happening in the city. It routes over a graph of 832 junctions and 1,630 road segments, races five shortest-path algorithms on the same trip (Dijkstra, A\*, Bidirectional Dijkstra, Bellman–Ford, Greedy best-first), and backs its verdict with ten tests and a benchmark lab that run live in the browser. The board above is a recording of the real thing: every ambulance on it is being routed as you watch.
+
+`JavaScript` `Graph algorithms` `No build step, no dependencies`
+
+**[Open the atlas](https://h0gr1d3r-code.github.io/corridor-routing-atlas/)** &nbsp;·&nbsp; [Watch the 5-minute film](https://h0gr1d3r-code.github.io/corridor-routing-atlas/film/) &nbsp;·&nbsp; [Code](https://github.com/H0GR1D3R-CODE/corridor-routing-atlas)
+
+<br/>
+
+## Featured
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/H0GR1D3R-CODE/phishguard"><img src="assets/shots/phishguard.jpg" alt="PhishGuard flagging a URL as malicious with a 96% risk score and the five signals that drove the verdict" /></a>
+      <h3>PhishGuard</h3>
+      <p>Paste a URL, get a verdict: safe, suspicious or malicious. A Random Forest trained on 6,494 real labelled URLs reads 24 features straight from the URL string, and SHAP explains in plain English which ones drove the call.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>scikit-learn</code> <code>SHAP</code> <code>React</code> <code>Docker</code></p>
+      <p><a href="https://github.com/H0GR1D3R-CODE/phishguard">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://fitadapt-ai.vercel.app"><img src="assets/shots/fitadapt.jpg" alt="FitAdapt AI home screen with a biometric readout of an athlete's body" /></a>
+      <h3>FitAdapt AI</h3>
+      <p>Interactive front end for a multi-agent system that reads an athlete's soreness, sleep and energy each day and rewrites the training session to match. Includes a live Sensing → Decision → Execution pipeline you can step through.</p>
+      <p><code>React</code> <code>Vite</code> <code>Tailwind CSS</code></p>
+      <p><b><a href="https://fitadapt-ai.vercel.app">Live</a></b> &nbsp;·&nbsp; <a href="https://github.com/H0GR1D3R-CODE/fitadapt-ai">Code</a></p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://fake-news-detection-nlp.vercel.app"><img src="assets/shots/veritas.jpg" alt="Veritas, a fake news detection dashboard styled as a newspaper forensics desk" /></a>
+      <h3>Veritas</h3>
+      <p>Fake news detection with classic NLP: TF-IDF features into Logistic Regression, SVM and Random Forest, behind a dashboard that shows every stage of the pipeline running on the article you paste in. Built with Don Pradeep.</p>
+      <p><code>Python</code> <code>scikit-learn</code> <code>NLTK</code> <code>Flask</code></p>
+      <p><b><a href="https://fake-news-detection-nlp.vercel.app">Live</a></b> &nbsp;·&nbsp; <a href="https://github.com/H0GR1D3R-CODE/fake-news-detection-nlp">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://h0gr1d3r-code.github.io/hogrider/?deck=hog-rider,musketeer,ice-golem,ice-spirit,skeletons,cannon,fireball,the-log"><img src="assets/shots/hogrider.jpg" alt="hogrider with the 2.6 hog cycle deck loaded: 2.6 average elixir, an elixir curve, and five passed matchup checks" /></a>
+      <h3>hogrider</h3>
+      <p>Clash Royale deck builder. Pick 8 cards and get a live elixir curve and matchup checks (win condition, spell support, answers to swarms, air and tanks). Decks live in the URL, so sharing one is just copying the link.</p>
+      <p><code>React</code> <code>Vite</code> <code>GitHub Pages</code></p>
+      <p><b><a href="https://h0gr1d3r-code.github.io/hogrider/">Live</a></b> &nbsp;·&nbsp; <a href="https://github.com/H0GR1D3R-CODE/hogrider">Code</a></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## More projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| 🎨 [**collabcanvas**](https://github.com/H0GR1D3R-CODE/collabcanvas) | Real-time collaborative whiteboard — multiple people draw together live with cursor presence, boards persist and can be shared via a room link | React · Socket.IO · Node/Express · MongoDB |
-| ♟️ [**hogrider**](https://h0gr1d3r-code.github.io/hogrider/) | Clash Royale deck builder — pick 8 cards and get live elixir-curve and matchup analysis, decks are shareable via URL | React · Vite · GitHub Pages |
-| 🏫 [**campus-connect**](https://github.com/H0GR1D3R-CODE/campus-connect) | Full-stack campus club & event management platform with role-based auth (student / club admin / site admin) and RSVPs | React · Node/Express · MongoDB · JWT |
-| 📡 [**iot-environment-monitor**](https://github.com/H0GR1D3R-CODE/iot-environment-monitor) | ESP32 + DHT22 sensor pipeline (with a software simulator) publishing live to ThingSpeak, plus a Python analysis & alerting layer | Arduino/C++ · Python · ThingSpeak API |
-| 📱 [**expense-tracker-android**](https://github.com/H0GR1D3R-CODE/expense-tracker-android) | Native Android expense tracker with budget tracking and a hand-drawn category breakdown chart | Kotlin · Jetpack Compose · Room · MVVM |
-| 📚 [**library-management-system**](https://github.com/H0GR1D3R-CODE/library-management-system) | Console-based library system — issue/return workflow with automatic overdue fine calculation | Java · JDBC · SQLite |
-| 💰 [**finance-analyzer-cli**](https://github.com/H0GR1D3R-CODE/finance-analyzer-cli) | CLI tool that analyzes personal income/expenses from CSV data — category breakdowns, monthly trends, exported charts | Python · pandas · matplotlib |
+| [**collabcanvas**](https://github.com/H0GR1D3R-CODE/collabcanvas) | Real-time collaborative whiteboard — multiple people draw together live with cursor presence, boards persist and can be shared via a room link | React · Socket.IO · Node/Express · MongoDB |
+| [**campus-connect**](https://github.com/H0GR1D3R-CODE/campus-connect) | Campus club & event management platform with role-based auth (student / club admin / site admin) and RSVPs | React · Node/Express · MongoDB · JWT |
+| [**iot-environment-monitor**](https://github.com/H0GR1D3R-CODE/iot-environment-monitor) | ESP32 + DHT22 sensor pipeline (with a software simulator) publishing live to ThingSpeak, plus a Python analysis & alerting layer | Arduino/C++ · Python · ThingSpeak API |
+| [**expense-tracker-android**](https://github.com/H0GR1D3R-CODE/expense-tracker-android) | Native Android expense tracker with budget tracking and a hand-drawn category breakdown chart | Kotlin · Jetpack Compose · Room · MVVM |
+| [**library-management-system**](https://github.com/H0GR1D3R-CODE/library-management-system) | Console-based library system — issue/return workflow with automatic overdue fine calculation | Java · JDBC · SQLite |
+| [**finance-analyzer-cli**](https://github.com/H0GR1D3R-CODE/finance-analyzer-cli) | CLI tool that analyzes personal income/expenses from CSV data — category breakdowns, monthly trends, exported charts | Python · pandas · matplotlib |
 
 <br/>
 
-### GitHub stats
+## Toolbox
 
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=H0GR1D3R-CODE&hide_border=true&background=0D1B2A&ring=8ECAE6&fire=8ECAE6&currStreakLabel=8ECAE6&sideLabels=E8F1F5&currStreakNum=E8F1F5&sideNums=E8F1F5&dates=6C8FA8" />
-</div>
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=java,py,kotlin,js,ts,cpp&theme=dark" height="40" alt="Java, Python, Kotlin, JavaScript, TypeScript, C++" /></td>
+  </tr>
+  <tr>
+    <td><b>Web</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nodejs,express,fastapi,flask,vite,tailwind,bootstrap,html,css&theme=dark" height="40" alt="React, Node.js, Express, FastAPI, Flask, Vite, Tailwind CSS, Bootstrap, HTML, CSS" /></td>
+  </tr>
+  <tr>
+    <td><b>Data &amp; ML</b></td>
+    <td><img src="https://skillicons.dev/icons?i=sklearn,mongodb,mysql,sqlite,firebase&theme=dark" height="40" alt="scikit-learn, MongoDB, MySQL, SQLite, Firebase" /></td>
+  </tr>
+  <tr>
+    <td><b>Devices &amp; tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=arduino,androidstudio,docker,git,github,vscode&theme=dark" height="40" alt="Arduino, Android Studio, Docker, Git, GitHub, VS Code" /></td>
+  </tr>
+</table>
+
+<br/>
+
+## Portfolio
+
+<a href="https://h0gr1d3r-code.github.io/">
+  <img src="assets/portfolio.svg" width="100%" alt="Nebin Stanly's portfolio site — h0gr1d3r-code.github.io" />
+</a>
+
+Experience, certifications, awards and the rest of the story: **[h0gr1d3r-code.github.io](https://h0gr1d3r-code.github.io/)**
 
 <br/>
 
 <div align="center">
 
-🎓 Christ University, Yeshwanthpur · 📍 Bangalore, India
+<img src="assets/footer.svg" width="100%" alt="" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=H0GR1D3R-CODE&color=8ECAE6&style=flat)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8ECAE6,50:274156,100:0D1B2A&height=100&section=footer" width="100%"/>
+<sub>Christ University, Yeshwanthpur &nbsp;·&nbsp; Bangalore, India &nbsp;·&nbsp; <a href="mailto:nebinstanly12@gmail.com">nebinstanly12@gmail.com</a></sub>
 
 </div>

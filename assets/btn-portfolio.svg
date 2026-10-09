@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 40" width="148" height="40" role="img" aria-label="Portfolio">
+  <defs>
+    <clipPath id="c"><rect x="1" y="1" width="146" height="38" rx="19"/></clipPath>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sh { animation: sh 4.5s ease-in-out 1.5s infinite; }
+    @keyframes sh { 0% { transform: translateX(-70px); } 28%, 100% { transform: translateX(188px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="146" height="38" rx="19" fill="#E0B15A" stroke="#E0B15A" stroke-width="1.5"/>
+  <g clip-path="url(#c)"><g class="sh"><rect x="-50" y="0" width="46" height="40" fill="url(#s)" transform="skewX(-20)"/></g></g>
+  <text x="74.0" y="25" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', 'Segoe UI Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600" letter-spacing="2.2" fill="#0B1622">PORTFOLIO</text>
+</svg>
