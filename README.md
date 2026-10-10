@@ -14,7 +14,7 @@ I'm a third-year BCA student at Christ University's Yeshwanthpur campus in Banga
 
 Most of what I build sits somewhere between full-stack web dev, IoT, and real-time systems (WebSockets, live sync, that sort of thing), with more machine learning and NLP creeping in lately. I'm also slowly getting deeper into cybersecurity on the side.
 
-The longer version, with experience and certifications, is on my portfolio: **[h0gr1d3r-code.github.io](https://h0gr1d3r-code.github.io/)**
+The longer version, with my timeline, certificates and awards, is on my portfolio: **[h0gr1d3r-code.github.io](https://h0gr1d3r-code.github.io/)**
 
 <br/>
 
@@ -136,10 +136,10 @@ Finds the fastest route for an ambulance when every road's travel time depends o
 ## Portfolio
 
 <a href="https://h0gr1d3r-code.github.io/">
-  <img src="assets/portfolio.svg" width="100%" alt="Nebin Stanly's portfolio site — h0gr1d3r-code.github.io" />
+  <img src="assets/shots/portfolio.webp" width="100%" alt="The opening screen of my portfolio, cycling through the project deck: EcoTrack, Corridor, FitAdapt AI, Veritas and hogrider, with a panda in a straw hat on a snowy hill below" />
 </a>
 
-Experience, certifications, awards and the rest of the story: **[h0gr1d3r-code.github.io](https://h0gr1d3r-code.github.io/)**
+A deck of my projects you can flip through, a small game where you catch a project's name on the panda's hat, and a timeline of study, certificates, volunteering and awards: **[h0gr1d3r-code.github.io](https://h0gr1d3r-code.github.io/)**
 
 <br/>
 
